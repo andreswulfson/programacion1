@@ -16,25 +16,6 @@ namespace Calculadora
            
 
         }
-    public class DivideTests
-    {
-        //Dividir es definir las veces que el primer número contiene al segundo número siendo ambos números enteros y menores a 100.
-        public int Divide(int first, int second)
-        {
-            var result = 0;
-            for (var i = 0; i < second; i++)
-            {
-            result = result / first;
-            }
-            return result;
-
-
-
-
-
-        }
-
-        //En lenguaje natural potenciar dos numeros enteros menores a 100 (ejercicio)
 
         [Fact]
         public void OneTimesOneIsOne()
